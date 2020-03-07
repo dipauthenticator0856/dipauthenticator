@@ -1,0 +1,65 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sort"
+        android:icon="@drawable/ic_sort_inverted_white"
+        android:title="@string/menu_main_sort"
+        app:showAsAction="always">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_sort_none"
+                    android:checked="true"
+                    android:title="@string/menu_sort_none" />
+
+                <item
+                    android:id="@+id/menu_sort_label"
+                    android:title="@string/menu_sort_label" />
+
+                <item
+                    android:id="@+id/menu_sort_last_used"
+                    android:title="@string/menu_sort_last_used" />
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search_white"
+        android:title="@string/menu_main_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/action_backup"
+        android:orderInCategory="100"
+        android:title="@string/menu_main_backup"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu_main_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="100"
+        android:title="@string/menu_main_notification"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_faqs"
+        android:orderInCategory="100"
+        android:title="@string/menu_main_faqs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/menu_main_about"
+        app:showAsAction="never" />
+</menu>

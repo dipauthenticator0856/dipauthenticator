@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Temporarily add library definitions here until they get merged upstream or in AboutLibraries -->
+
+<resources>
+    <!-- Apache common codec -->
+
+    <!-- Expandable Layout -->
+
+    <!-- Floating Action Button Speed Dial -->
+
+    <!-- material-intro -->
+
+    <!-- OpenPGP API -->
+
+    <!-- ZXing Android Embedded -->
+
+</resources>

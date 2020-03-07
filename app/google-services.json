@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627101927451",
+    "firebase_url": "https://dip-authenticator.firebaseio.com",
+    "project_id": "dip-authenticator",
+    "storage_bucket": "dip-authenticator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627101927451:android:6d349e64a2f66780b1d0be",
+        "android_client_info": {
+          "package_name": "cloud.dip.authenticator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627101927451-ir9ndc0av7s85i3gor3rerj5t0bckfbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cloud.dip.authenticator",
+            "certificate_hash": "b688766eab08ccc384c3be49ea92d3a37979207c"
+          }
+        },
+        {
+          "client_id": "627101927451-63c43dghaq91fqmrhcu7v6qkshl3ujif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoGrF8E6M8wynw8fmFcrQlEmj6IyyZ5Ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627101927451-63c43dghaq91fqmrhcu7v6qkshl3ujif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
